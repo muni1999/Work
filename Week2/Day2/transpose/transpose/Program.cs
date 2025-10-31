@@ -9,7 +9,7 @@
 
             Console.WriteLine("Enter elements for a 2x2 matrix:");
 
-            // Taking input from the user
+            
             for (int i = 0; i < 2; i++)
             {
                 for (int j = 0; j < 2; j++)
