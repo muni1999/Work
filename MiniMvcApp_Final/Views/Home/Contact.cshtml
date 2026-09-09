@@ -1,0 +1,28 @@
+@model MiniMvcApp.Models.ContactModel
+
+<h2>Contact</h2>
+
+@if (ViewBag.Msg != null)
+{
+    <p style="color:green">@ViewBag.Msg</p>
+}
+
+<form asp-action="Contact" method="post">
+    <p>
+        Name: <input asp-for="Name" />
+        <span asp-validation-for="Name" style="color:red"></span>
+    </p>
+    <p>
+        Email: <input asp-for="Email" />
+        <span asp-validation-for="Email" style="color:red"></span>
+    </p>
+    <p>
+        Message: <textarea asp-for="Message"></textarea>
+        <span asp-validation-for="Message" style="color:red"></span>
+    </p>
+    <button>Submit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculatir", "Calculatir\Calculatir.csproj", "{9633BBAB-9C60-4600-A896-50AC6001DA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9633BBAB-9C60-4600-A896-50AC6001DA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9633BBAB-9C60-4600-A896-50AC6001DA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9633BBAB-9C60-4600-A896-50AC6001DA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9633BBAB-9C60-4600-A896-50AC6001DA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C4C19E-4B4A-4EB8-97F2-E1C24A5AD7C2}
+	EndGlobalSection
+EndGlobal
